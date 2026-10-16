@@ -24,7 +24,7 @@ JavaScript (Vanilla) – Interactive mining counter, achievement toasts, and smo
 
 📦 Project Structure
 
-├── index.html       # Main application file containing structure, styling, and scripts
+├── index.html       # Main application file containing structure, styling, and scripts  
 └── README.md        # Project documentation
 
 
