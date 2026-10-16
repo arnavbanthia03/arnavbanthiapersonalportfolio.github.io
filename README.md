@@ -1,8 +1,10 @@
-# [YOUR NAME] – Personal Portfolio
+# Arnav Banthia – Personal Portfolio
 
 A Minecraft-themed personal portfolio website, built with HTML, CSS and JavaScript.
 
 **Live site:** https://YOUR-USERNAME.github.io/
+arnavbanthiapersonalportfolio.github.io
+
 
 ## Credits
 - Fonts: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) and [VT323](https://fonts.google.com/specimen/VT323) via Google Fonts.
