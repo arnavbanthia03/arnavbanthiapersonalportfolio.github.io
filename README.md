@@ -2,7 +2,7 @@
 
 A retro, gamified personal portfolio website built with HTML, CSS, and JavaScript, styled entirely like a classic Minecraft inventory and world interface!
 
-Live Site: arnavbanthiapersonalportfolio.github.io
+Live Site: [arnavbanthiapersonalportfolio.github.io](https://arnavbanthia03.github.io/arnavbanthiapersonalportfolio.github.io/)
 
 🚀 Features
 
