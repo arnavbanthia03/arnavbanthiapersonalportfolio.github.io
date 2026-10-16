@@ -152,7 +152,7 @@ footer{text-align:center;color:var(--muted);font-size:18px;padding:30px 16px}
     <p>Email: <a href="mailto:arnavbanthia03@gmail.com">arnavbanthia03@gmail.com</a></p>
     <!-- ✏️ EDIT 12: social links. Replace the URLs. Delete any line you don't use -->
     <p>GitHub: <a href="https://github.com/arnavbanthia03" target="_blank" rel="noopener">github.com/arnavbanthia03</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/arnav-banthia-6b818331b" target="_blank" rel="noopener">Arnav Banthia</a></p>
+    <p>LinkedIn: <a href="linkedin.com/in/arnav-banthia-6b818331b" target="_blank" rel="noopener">Arnav Banthia</a></p>
   </div>
 </section>
 
@@ -179,9 +179,10 @@ function say(msg){ toast.textContent = msg; toast.classList.add('show'); setTime
 block.addEventListener('click', () => {
   mined++; out.textContent = mined;
   block.classList.remove('hit'); void block.offsetWidth; block.classList.add('hit');
-  if (mined === 10) say('Achievement Unlocked! Taking Inventory');
-  if (mined === 20) say('Achievement Unlocked! Getting an Upgrade');
-  if (mined === 50) say('Achievement Unlocked! The End!');
+  if (mined === 1) say('Achievement Unlocked! Hello World');
+  if (mined === 5) say('Achievement Unlocked! Taking Inventory');
+  if (mined === 10) say('Achievement Unlocked! Getting an Upgrade');
+  if (mined === 25) say('Achievement Unlocked! Diamonds!');
 });
 // Highlight the hotbar slot for the section you're viewing
 const links = [...document.querySelectorAll('.hotbar a')];
