@@ -83,18 +83,19 @@ footer{text-align:center;color:var(--muted);font-size:18px;padding:30px 16px}
   <h2>About Me</h2>
   <div class="panel">
     <!-- ✏️ EDIT 4: write 3-4 sentences in your own voice. Keep what is true for you, replace the [BRACKETS] -->
-    <p>I'm [YOUR NAME], a [YEAR, e.g. first-year] student at [SCHOOL / COLLEGE], studying [YOUR COURSE / SUBJECT].</p>
-    <p>I love gaming, and Minecraft is one of my favourite games ever. [WHAT YOU LIKE ABOUT IT, e.g. building, redstone, survival, exploring].</p>
-    <p>[SOMETHING YOU CARE ABOUT, e.g. a cause, a goal, what you want to do after studying].</p>
+    <p>I am Arnav Banthia. I am a 3rd year student at NMIMS MPSTME studying engineering. My course is MBA Tech Data Science</p>
+    <p>I love to do anything and everything. I like to cook, game, watch sports and just hang out with friends.</p>
+    <p>I really want to explore new things and any opportunity I get to do so, I snatch it up real fast.</p>
   </div>
   <div class="panel">
     <h3>Player Stats</h3>
     <!-- ✏️ EDIT 5: fill the stats. Delete any row you don't want. Do NOT add phone or home address -->
     <dl class="stats">
-      <dt>Name</dt><dd>[YOUR NAME]</dd>
-      <dt>Class</dt><dd>[YOUR COURSE]</dd>
+      <dt>Name</dt><dd>Arnav Banthia</dd>
+      <dt>Class</dt><dd>MBA Tech Data Science</dd>
       <dt>Favourite game</dt><dd>Minecraft</dd>
-      <dt>Spawn point</dt><dd>[YOUR COUNTRY OR CITY]</dd>
+      <dt>Favourite cuisine</dt><dd>Mexican</dd>
+      <dt>Spawn point</dt><dd>Mumbai, India</dd>
     </dl>
   </div>
 </section>
@@ -185,6 +186,7 @@ block.addEventListener('click', () => {
   mined++; out.textContent = mined;
   block.classList.remove('hit'); void block.offsetWidth; block.classList.add('hit');
   if (mined === 10) say('Achievement Unlocked! Taking Inventory');
+  if (mined === 20) say('Achievement Unlocked! Getting an Upgrade');
   if (mined === 50) say('Achievement Unlocked! The End!');
 });
 // Highlight the hotbar slot for the section you're viewing
